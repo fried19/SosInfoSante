@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252587580775",
+    "firebase_url": "https://sosinfosante.firebaseio.com",
+    "project_id": "sosinfosante",
+    "storage_bucket": "sosinfosante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252587580775:android:6467c78c6fd40f31f223c2",
+        "android_client_info": {
+          "package_name": "com.andsomore.sosinfosante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252587580775-qupanorn69g5irpf5r1iq5dn4bfoejgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andsomore.sosinfosante",
+            "certificate_hash": "c85ab5f09d7890586765d8ac5ffc1d182e052e5a"
+          }
+        },
+        {
+          "client_id": "252587580775-3aipbcm682k8ovfjmau8gnptupnp14ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGEijrKcR6v2qHNFISngxa6o_GBAA_tTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252587580775-3aipbcm682k8ovfjmau8gnptupnp14ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

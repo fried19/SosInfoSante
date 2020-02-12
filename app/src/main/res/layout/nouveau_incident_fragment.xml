@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/root_incident"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvTitreArticle"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="20dp"
+        android:text="Quartier  :"
+        android:textColor="@color/colorTextView1"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etQuartier"
+        android:layout_width="130dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="200dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/etQuartier"
+        android:id="@+id/etDescription"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:paddingBottom="40dp"
+        android:hint="Décrivez l'incidence"
+        android:textSize="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/edittext_rectangle1"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/btEnvoyer"
+        android:layout_below="@+id/etDescription"
+        android:layout_width="137dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_uiborder"
+        android:text="ENVOYER"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+</RelativeLayout>

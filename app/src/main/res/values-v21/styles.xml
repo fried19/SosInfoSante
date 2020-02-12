@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorRed1</item>
+        <item name="android:navigationBarColor">@color/colorSplashText</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRed1</item>
+        <item name="colorPrimaryDark">@color/colorRed1</item>
+        <item name="colorAccent">@color/colorBlueT</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SosInfoSante</string>
+
+    <string name="tvEmail">Email</string>
+    <string name="tvNewUser">Pas encore de compte? Créer le ici </string>
+    <string name="tvPassword">Password</string>
+    <string name="tvRePassword">Repetez le Password</string>
+    <string name="tvNom">Nom</string>
+    <string name="tvPrenom">Prénom</string>
+    <string name="tvTelephone">Télephone</string>
+    <string name="tvProfession">Profession</string>
+    <string name="tvInscription">Inscription</string>
+    <string name="btInscription">S\'inscrire</string>
+    <string name="mapBox_key">
+       pk.eyJ1IjoiZnJpZWQxOSIsImEiOiJjanppZGlyZzkwMHJlM21xNGNhNHJ1Y3FhIn0.u3RBiQwrAt_VkDpAOSoaAQ
+    </string>
+</resources>

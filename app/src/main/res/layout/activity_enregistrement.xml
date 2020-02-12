@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/_rootregister"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    tools:context=".EnregistrementActivity">
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/white_back"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:elevation="10dp"
+        android:text="@string/tvInscription"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:transitionName="login" />
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="391dp"
+                android:layout_height="750dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="100dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-120dp">
+
+                    <TextView
+                        android:id="@+id/tvNom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="13dp"
+                        android:text="@string/tvNom"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etNom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvNom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="textEmailAddress"
+                        android:padding="8sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvPrenom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etNom"
+                        android:layout_margin="15dp"
+                        android:text="@string/tvPrenom"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etPrenom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvPrenom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="8sp" />
+
+                    <TextView
+                        android:id="@+id/tvTelephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etPrenom"
+                        android:layout_margin="13dp"
+                        android:text="@string/tvTelephone"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etTelephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvTelephone"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="number"
+                        android:padding="8sp" />
+
+                    <TextView
+                        android:id="@+id/tvProfeession"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etTelephone"
+                        android:layout_margin="16dp"
+                        android:text="@string/tvProfession"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etProfession"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvProfeession"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="textEmailAddress"
+                        android:padding="8sp" />
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etProfession"
+                        android:layout_margin="16dp"
+                        android:text="@string/tvEmail"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvEmail"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="textEmailAddress"
+                        android:padding="8sp" />
+
+                    <LinearLayout
+                        android:id="@+id/linSexe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etEmail"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Sexe"
+                            android:textColor="@color/colorBackground"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/rgSexe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/etProfession"
+                            android:layout_marginLeft="40dp"
+
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioMasculin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="MASCULIN" />
+
+                            <RadioButton
+                                android:id="@+id/radioFeminin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:text="FEMININ" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tvPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linSexe"
+                        android:layout_margin="13dp"
+                        android:text="@string/tvPassword"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvPassword"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="textPassword"
+                        android:padding="8sp" />
+
+                    <TextView
+                        android:id="@+id/tvRePassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etPassword"
+                        android:layout_margin="13dp"
+                        android:text="@string/tvRePassword"
+                        android:textColor="@color/colorBackground"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etRePassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvRePassword"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="textPassword"
+                        android:padding="10sp" />
+
+                    <Button
+                        android:id="@+id/btInscription"
+                        android:layout_below="@id/etRePassword"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bt_uiborder"
+                        android:text="@string/btInscription"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorWhite" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

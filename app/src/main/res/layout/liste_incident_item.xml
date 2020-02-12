@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorLayoutBack">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/linQuartier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="Quartier de l'incidence    :  "
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvQuartier"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="match_parent"
+                android:text="Agoè"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linTitre"
+            android:layout_below="@id/linQuartier"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="Description de l'incident :  "
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="match_parent"
+                android:text=" Chaussure"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linPosteur"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/linTitre"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvLibPosteur"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="Date de l'incidente  :  "
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvDateIncidence"
+                android:textColor="@color/colorTextView1"
+                android:layout_width="wrap_content"
+                android:text="25/05/2020 à 20h04"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linLangage"
+            android:layout_below="@+id/linPosteur"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/tvDateAchat"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextView1"
+                android:text="Status du secours   :  "
+                />
+
+            <TextView
+                android:id="@+id/tvStatusIncident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="En cours"
+                android:textColor="@color/colorTextView1"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

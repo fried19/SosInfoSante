@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_new_conso"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_incident"
+        android:title="Incident"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Acceuil"
+        app:showAsAction="ifRoom"/>
+
+    <item
+       android:id="@+id/action_budget"
+       android:enabled="true"
+       android:icon="@drawable/ic_user_account"
+       android:title="Compte"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+</menu>
